@@ -49,7 +49,11 @@ for (let i = 0; i < 100; i++){
     let y = Math.random() * (innerHeight -radius * 2) + radius
     let dx = (Math.random() -0.5)  
     let dy = (Math.random() -0.5) 
-    circleArray.push(new Circle(x, y, dx, dy, radius)) // instantiate Javascript circle object
+    let circle = new Circle(x, y, dx, dy, radius)
+
+    circleArray.push(circle) // instantiate Javascript circle object
+    debugger
+
 }
 
 //Animate 

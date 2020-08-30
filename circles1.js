@@ -77,5 +77,5 @@ function animate2(){
     y+=dy
 }
 
-//animate2()
+animate2()
 
